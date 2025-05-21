@@ -1,0 +1,177 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft-x8664-avx-aux.c.obj"
+		},
+		{
+			"path" : "libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft-model-of-x8664-avx.c.obj"
+		},
+		{
+			"path" : "libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft_processor_nayuki.cpp.obj"
+		},
+		{
+			"path" : "libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/lagrangehalfc_impl.cpp.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"libtfhe/fft_processors/nayuki/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g3 -O0 -Wall -Werror -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/usr/local/fftw/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/src/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++11 -g3 -O0 -Wall -Werror -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/usr/local/fftw/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/src/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		}
+	],
+	"id" : "tfhe-fft-nayuki-portable::@484fe10453564a7a491c",
+	"name" : "tfhe-fft-nayuki-portable",
+	"paths" : 
+	{
+		"build" : "libtfhe/fft_processors/nayuki",
+		"source" : "libtfhe/fft_processors/nayuki"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libtfhe/fft_processors/nayuki/fft-x8664-avx-aux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libtfhe/fft_processors/nayuki/fft-model-of-x8664-avx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libtfhe/fft_processors/nayuki/fft_processor_nayuki.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libtfhe/fft_processors/nayuki/lagrangehalfc_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libtfhe/fft_processors/nayuki/fft.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "libtfhe/fft_processors/nayuki/lagrangehalfc_impl.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

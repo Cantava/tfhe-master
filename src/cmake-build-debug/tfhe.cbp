@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tfhe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libtfhe\;CMake Files\libtfhe\fft_processors\;CMake Files\libtfhe\fft_processors\nayuki\;CMake Files\libtfhe\fft_processors\spqlios\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-core">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe-core.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-core"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-core/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe-core.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-core/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-nayuki-portable">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-nayuki-portable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-nayuki-portable"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-nayuki-portable/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-nayuki-portable.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-nayuki-portable/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-nayuki-avx">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-nayuki-avx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-nayuki-avx"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-nayuki-avx/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-nayuki-avx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-nayuki-avx/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-spqlios-avx">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-spqlios-avx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-spqlios-avx"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-spqlios-avx/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-spqlios-avx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-spqlios-avx/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-spqlios-fma">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-spqlios-fma.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-spqlios-fma"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-spqlios-fma/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/libtfhe-spqlios-fma.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 tfhe-spqlios-fma/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-nayuki-portable">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/tfhe-fft-nayuki-portable.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 tfhe-fft-nayuki-portable"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-nayuki-portable/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/tfhe-fft-nayuki-portable.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 tfhe-fft-nayuki-portable/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-nayuki-avx">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/tfhe-fft-nayuki-avx.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 tfhe-fft-nayuki-avx"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-nayuki-avx/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/tfhe-fft-nayuki-avx.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 tfhe-fft-nayuki-avx/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-spqlios-avx">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/tfhe-fft-spqlios-avx.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 tfhe-fft-spqlios-avx"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-spqlios-avx/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/tfhe-fft-spqlios-avx.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 tfhe-fft-spqlios-avx/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-spqlios-fma">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/tfhe-fft-spqlios-fma.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 tfhe-fft-spqlios-fma"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tfhe-fft-spqlios-fma/fast">
+				<Option output="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/tfhe-fft-spqlios-fma.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/fftw/include"/>
+					<Add directory="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 tfhe-fft-spqlios-fma/fast"/>
+					<CompileFile command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program_Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/autogenerated.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/boot-gates.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwe-bootstrapping-functions-fft.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwe-bootstrapping-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwe-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwe-keyswitch-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwe.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwebootstrappingkey.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwekey.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwekeyswitch.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lweparams.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/lwesamples.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/multiplication.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/numeric-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/polynomials.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe_garbage_collector.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe_gate_bootstrapping.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe_gate_bootstrapping_structures.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe_generic_streams.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tfhe_io.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tgsw-fft-operations.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tgsw-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tgsw.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tlwe-fft-operations.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tlwe-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/tlwe.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/CMakeFiles/tfhe-core.dir/toruspolynomial-functions.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+			<Option target="tfhe-nayuki-avx"/>
+			<Option target="tfhe-spqlios-avx"/>
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/fft-x8664-avx-aux.c.obj">
+			<Option target="tfhe-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/fft-x8664-avx-reverse.s.obj">
+			<Option target="tfhe-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/fft-x8664-avx.s.obj">
+			<Option target="tfhe-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/fft_processor_nayuki.cpp.obj">
+			<Option target="tfhe-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-avx.dir/lagrangehalfc_impl.cpp.obj">
+			<Option target="tfhe-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft-model-of-x8664-avx.c.obj">
+			<Option target="tfhe-nayuki-portable"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft-x8664-avx-aux.c.obj">
+			<Option target="tfhe-nayuki-portable"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/fft_processor_nayuki.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/nayuki/CMakeFiles/tfhe-fft-nayuki-portable.dir/lagrangehalfc_impl.cpp.obj">
+			<Option target="tfhe-nayuki-portable"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/fft_processor_spqlios.cpp.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/lagrangehalfc_impl.cpp.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/lagrangehalfc_impl_avx.s.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/spqlios-fft-avx.s.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/spqlios-fft-impl.cpp.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-avx.dir/spqlios-ifft-avx.s.obj">
+			<Option target="tfhe-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/fft_processor_spqlios.cpp.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/lagrangehalfc_impl.cpp.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/lagrangehalfc_impl_fma.s.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/spqlios-fft-fma.s.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/spqlios-fft-impl.cpp.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/cmake-build-debug/libtfhe/fft_processors/spqlios/CMakeFiles/tfhe-fft-spqlios-fma.dir/spqlios-ifft-fma.s.obj">
+			<Option target="tfhe-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lagrangehalfc_arithmetic.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lwe-functions.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lwebootstrappingkey.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lwekey.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lwekeyswitch.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lweparams.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/lwesamples.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/numeric_functions.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/polynomials.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/polynomials_arithmetic.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_core.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_garbage_collector.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_gate_bootstrapping_functions.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_gate_bootstrapping_structures.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_generic_streams.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_generic_templates.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tfhe_io.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tgsw.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tgsw_functions.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tlwe.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/include/tlwe_functions.h">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/autogenerated.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/boot-gates.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft-model-of-x8664-avx.c">
+			<Option target="tfhe-fft-nayuki-portable"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft-x8664-avx-aux.c">
+			<Option target="tfhe-fft-nayuki-portable"/>
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft-x8664-avx-reverse.s">
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft-x8664-avx.s">
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft.h">
+			<Option target="tfhe-fft-nayuki-portable"/>
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/fft_processor_nayuki.cpp">
+			<Option target="tfhe-fft-nayuki-portable"/>
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/lagrangehalfc_impl.cpp">
+			<Option target="tfhe-fft-nayuki-portable"/>
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/lagrangehalfc_impl.h">
+			<Option target="tfhe-fft-nayuki-portable"/>
+			<Option target="tfhe-fft-nayuki-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/fft_processor_spqlios.cpp">
+			<Option target="tfhe-fft-spqlios-avx"/>
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/lagrangehalfc_impl.cpp">
+			<Option target="tfhe-fft-spqlios-avx"/>
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/lagrangehalfc_impl.h">
+			<Option target="tfhe-fft-spqlios-avx"/>
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/lagrangehalfc_impl_avx.s">
+			<Option target="tfhe-fft-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/lagrangehalfc_impl_fma.s">
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-fft-avx.s">
+			<Option target="tfhe-fft-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-fft-fma.s">
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-fft-impl.cpp">
+			<Option target="tfhe-fft-spqlios-avx"/>
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-fft.h">
+			<Option target="tfhe-fft-spqlios-avx"/>
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-ifft-avx.s">
+			<Option target="tfhe-fft-spqlios-avx"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/spqlios-ifft-fma.s">
+			<Option target="tfhe-fft-spqlios-fma"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwe-bootstrapping-functions-fft.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwe-bootstrapping-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwe-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwe-keyswitch-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwe.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwebootstrappingkey.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwekey.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwekeyswitch.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lweparams.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/lwesamples.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/multiplication.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/numeric-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/polynomials.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tfhe_garbage_collector.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tfhe_gate_bootstrapping.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tfhe_gate_bootstrapping_structures.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tfhe_generic_streams.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tfhe_io.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tgsw-fft-operations.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tgsw-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tgsw.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tlwe-fft-operations.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tlwe-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/tlwe.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/toruspolynomial-functions.cpp">
+			<Option target="tfhe-core"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libtfhe\"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libtfhe\fft_processors\"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/nayuki/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libtfhe\fft_processors\nayuki\"/>
+		</Unit>
+		<Unit filename="D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/src/libtfhe/fft_processors/spqlios/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libtfhe\fft_processors\spqlios\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11 -g0 -march=native -O2 -DNDEBUG -funroll-loops -Wall -Werror   CMakeFiles/test-long-run-fftw.dir/test-long-run.cpp.o  -o test-long-run-fftw -rdynamic ../libtfhe/libtfhe-fftw.a /usr/local/lib/libfftw3.a 

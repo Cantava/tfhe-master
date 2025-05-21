@@ -1,0 +1,1115 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/20 15:18:20。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:04.26
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/20 15:18:24。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.15
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-3yen2h"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-3yen2h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-3yen2h'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_9cf5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/20 15:18:27。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yen2h\\cmTC_9cf5c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9cf5c.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yen2h\\Debug\\”。
+          正在创建目录“cmTC_9cf5c.dir\\Debug\\cmTC_9cf5c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9cf5c.dir\\Debug\\cmTC_9cf5c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cf5c.dir\\Debug\\\\" /Fd"cmTC_9cf5c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cf5c.dir\\Debug\\\\" /Fd"cmTC_9cf5c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yen2h\\Debug\\cmTC_9cf5c.exe" /INCREMENTAL /ILK:"cmTC_9cf5c.dir\\Debug\\cmTC_9cf5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-3yen2h/Debug/cmTC_9cf5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-3yen2h/Debug/cmTC_9cf5c.lib" /MACHINE:X64  /machine:x64 cmTC_9cf5c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9cf5c.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yen2h\\Debug\\cmTC_9cf5c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_9cf5c.dir\\Debug\\cmTC_9cf5c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9cf5c.dir\\Debug\\cmTC_9cf5c.tlog\\cmTC_9cf5c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3yen2h\\cmTC_9cf5c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-sax42c"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-sax42c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-sax42c'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_16d3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/20 15:18:30。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sax42c\\cmTC_16d3b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_16d3b.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sax42c\\Debug\\”。
+          正在创建目录“cmTC_16d3b.dir\\Debug\\cmTC_16d3b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_16d3b.dir\\Debug\\cmTC_16d3b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16d3b.dir\\Debug\\\\" /Fd"cmTC_16d3b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16d3b.dir\\Debug\\\\" /Fd"cmTC_16d3b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sax42c\\Debug\\cmTC_16d3b.exe" /INCREMENTAL /ILK:"cmTC_16d3b.dir\\Debug\\cmTC_16d3b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-sax42c/Debug/cmTC_16d3b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-sax42c/Debug/cmTC_16d3b.lib" /MACHINE:X64  /machine:x64 cmTC_16d3b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_16d3b.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sax42c\\Debug\\cmTC_16d3b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_16d3b.dir\\Debug\\cmTC_16d3b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_16d3b.dir\\Debug\\cmTC_16d3b.tlog\\cmTC_16d3b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sax42c\\cmTC_16d3b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.19
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/20 20:51:19。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:04.24
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/20 20:51:24。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.16
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-uryzl9"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-uryzl9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-uryzl9'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_3f574.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/20 20:51:26。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uryzl9\\cmTC_3f574.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3f574.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uryzl9\\Debug\\”。
+          正在创建目录“cmTC_3f574.dir\\Debug\\cmTC_3f574.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3f574.dir\\Debug\\cmTC_3f574.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f574.dir\\Debug\\\\" /Fd"cmTC_3f574.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f574.dir\\Debug\\\\" /Fd"cmTC_3f574.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uryzl9\\Debug\\cmTC_3f574.exe" /INCREMENTAL /ILK:"cmTC_3f574.dir\\Debug\\cmTC_3f574.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-uryzl9/Debug/cmTC_3f574.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-uryzl9/Debug/cmTC_3f574.lib" /MACHINE:X64  /machine:x64 cmTC_3f574.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3f574.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uryzl9\\Debug\\cmTC_3f574.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_3f574.dir\\Debug\\cmTC_3f574.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_3f574.dir\\Debug\\cmTC_3f574.tlog\\cmTC_3f574.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uryzl9\\cmTC_3f574.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.19
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-bi1jiu"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-bi1jiu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-bi1jiu'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f6686.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/20 20:51:29。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi1jiu\\cmTC_f6686.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f6686.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi1jiu\\Debug\\”。
+          正在创建目录“cmTC_f6686.dir\\Debug\\cmTC_f6686.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f6686.dir\\Debug\\cmTC_f6686.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f6686.dir\\Debug\\\\" /Fd"cmTC_f6686.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f6686.dir\\Debug\\\\" /Fd"cmTC_f6686.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi1jiu\\Debug\\cmTC_f6686.exe" /INCREMENTAL /ILK:"cmTC_f6686.dir\\Debug\\cmTC_f6686.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-bi1jiu/Debug/cmTC_f6686.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-bi1jiu/Debug/cmTC_f6686.lib" /MACHINE:X64  /machine:x64 cmTC_f6686.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f6686.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi1jiu\\Debug\\cmTC_f6686.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f6686.dir\\Debug\\cmTC_f6686.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f6686.dir\\Debug\\cmTC_f6686.tlog\\cmTC_f6686.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi1jiu\\cmTC_f6686.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.11
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 10:49:35。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:04.57
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 10:49:40。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-vryg0h"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-vryg0h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-vryg0h'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_c443c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 10:49:43。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vryg0h\\cmTC_c443c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c443c.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vryg0h\\Debug\\”。
+          正在创建目录“cmTC_c443c.dir\\Debug\\cmTC_c443c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c443c.dir\\Debug\\cmTC_c443c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c443c.dir\\Debug\\\\" /Fd"cmTC_c443c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c443c.dir\\Debug\\\\" /Fd"cmTC_c443c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vryg0h\\Debug\\cmTC_c443c.exe" /INCREMENTAL /ILK:"cmTC_c443c.dir\\Debug\\cmTC_c443c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-vryg0h/Debug/cmTC_c443c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-vryg0h/Debug/cmTC_c443c.lib" /MACHINE:X64  /machine:x64 cmTC_c443c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c443c.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vryg0h\\Debug\\cmTC_c443c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c443c.dir\\Debug\\cmTC_c443c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c443c.dir\\Debug\\cmTC_c443c.tlog\\cmTC_c443c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vryg0h\\cmTC_c443c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ff17qo"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ff17qo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ff17qo'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_03fff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 10:49:46。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ff17qo\\cmTC_03fff.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_03fff.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ff17qo\\Debug\\”。
+          正在创建目录“cmTC_03fff.dir\\Debug\\cmTC_03fff.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_03fff.dir\\Debug\\cmTC_03fff.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_03fff.dir\\Debug\\\\" /Fd"cmTC_03fff.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_03fff.dir\\Debug\\\\" /Fd"cmTC_03fff.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ff17qo\\Debug\\cmTC_03fff.exe" /INCREMENTAL /ILK:"cmTC_03fff.dir\\Debug\\cmTC_03fff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ff17qo/Debug/cmTC_03fff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ff17qo/Debug/cmTC_03fff.lib" /MACHINE:X64  /machine:x64 cmTC_03fff.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_03fff.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ff17qo\\Debug\\cmTC_03fff.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_03fff.dir\\Debug\\cmTC_03fff.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_03fff.dir\\Debug\\cmTC_03fff.tlog\\cmTC_03fff.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ff17qo\\cmTC_03fff.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.35
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 14:42:53。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:04.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 14:42:59。
+      节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.84
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-pc1i6t"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-pc1i6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-pc1i6t'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_32e99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 14:43:03。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pc1i6t\\cmTC_32e99.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_32e99.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pc1i6t\\Debug\\”。
+          正在创建目录“cmTC_32e99.dir\\Debug\\cmTC_32e99.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_32e99.dir\\Debug\\cmTC_32e99.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32e99.dir\\Debug\\\\" /Fd"cmTC_32e99.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32e99.dir\\Debug\\\\" /Fd"cmTC_32e99.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pc1i6t\\Debug\\cmTC_32e99.exe" /INCREMENTAL /ILK:"cmTC_32e99.dir\\Debug\\cmTC_32e99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-pc1i6t/Debug/cmTC_32e99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-pc1i6t/Debug/cmTC_32e99.lib" /MACHINE:X64  /machine:x64 cmTC_32e99.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_32e99.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pc1i6t\\Debug\\cmTC_32e99.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_32e99.dir\\Debug\\cmTC_32e99.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_32e99.dir\\Debug\\cmTC_32e99.tlog\\cmTC_32e99.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pc1i6t\\cmTC_32e99.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.58
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-o8oro8"
+      binary: "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-o8oro8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-o8oro8'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_dc774.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 14:43:06。
+        节点 1 上的项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8oro8\\cmTC_dc774.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_dc774.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8oro8\\Debug\\”。
+          正在创建目录“cmTC_dc774.dir\\Debug\\cmTC_dc774.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_dc774.dir\\Debug\\cmTC_dc774.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc774.dir\\Debug\\\\" /Fd"cmTC_dc774.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc774.dir\\Debug\\\\" /Fd"cmTC_dc774.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8oro8\\Debug\\cmTC_dc774.exe" /INCREMENTAL /ILK:"cmTC_dc774.dir\\Debug\\cmTC_dc774.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-o8oro8/Debug/cmTC_dc774.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1大三下实验报告/密码学实验/程序代码（带章节编号）/8.1/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-o8oro8/Debug/cmTC_dc774.lib" /MACHINE:X64  /machine:x64 cmTC_dc774.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dc774.vcxproj -> D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8oro8\\Debug\\cmTC_dc774.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_dc774.dir\\Debug\\cmTC_dc774.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_dc774.dir\\Debug\\cmTC_dc774.tlog\\cmTC_dc774.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1大三下实验报告\\密码学实验\\程序代码（带章节编号）\\8.1\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8oro8\\cmTC_dc774.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.51
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 14:46:34。
+      节点 1 上的项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.71
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2025/5/21 14:46:37。
+      节点 1 上的项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\3.27.9\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.33
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/3.27.9/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-2ksjoe"
+      binary: "D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-2ksjoe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-2ksjoe'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_eeb14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 14:46:40。
+        节点 1 上的项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ksjoe\\cmTC_eeb14.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_eeb14.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ksjoe\\Debug\\”。
+          正在创建目录“cmTC_eeb14.dir\\Debug\\cmTC_eeb14.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_eeb14.dir\\Debug\\cmTC_eeb14.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eeb14.dir\\Debug\\\\" /Fd"cmTC_eeb14.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eeb14.dir\\Debug\\\\" /Fd"cmTC_eeb14.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ksjoe\\Debug\\cmTC_eeb14.exe" /INCREMENTAL /ILK:"cmTC_eeb14.dir\\Debug\\cmTC_eeb14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-2ksjoe/Debug/cmTC_eeb14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-2ksjoe/Debug/cmTC_eeb14.lib" /MACHINE:X64  /machine:x64 cmTC_eeb14.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_eeb14.vcxproj -> D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ksjoe\\Debug\\cmTC_eeb14.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_eeb14.dir\\Debug\\cmTC_eeb14.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_eeb14.dir\\Debug\\cmTC_eeb14.tlog\\cmTC_eeb14.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ksjoe\\cmTC_eeb14.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Program_Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ifs75x"
+      binary: "D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ifs75x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ifs75x'
+        
+        Run Build Command(s): "D:/Program_Files(x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_c6696.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2025/5/21 14:46:43。
+        节点 1 上的项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ifs75x\\cmTC_c6696.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c6696.dir\\Debug\\”。
+          正在创建目录“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ifs75x\\Debug\\”。
+          正在创建目录“cmTC_c6696.dir\\Debug\\cmTC_c6696.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c6696.dir\\Debug\\cmTC_c6696.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6696.dir\\Debug\\\\" /Fd"cmTC_c6696.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30159 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c6696.dir\\Debug\\\\" /Fd"cmTC_c6696.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Program_Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program_Files(x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ifs75x\\Debug\\cmTC_c6696.exe" /INCREMENTAL /ILK:"cmTC_c6696.dir\\Debug\\cmTC_c6696.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ifs75x/Debug/cmTC_c6696.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Documents/njit/1shiyan/tfhe-master/build/CMakeFiles/CMakeScratch/TryCompile-ifs75x/Debug/cmTC_c6696.lib" /MACHINE:X64  /machine:x64 cmTC_c6696.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c6696.vcxproj -> D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ifs75x\\Debug\\cmTC_c6696.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c6696.dir\\Debug\\cmTC_c6696.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c6696.dir\\Debug\\cmTC_c6696.tlog\\cmTC_c6696.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Documents\\njit\\1shiyan\\tfhe-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ifs75x\\cmTC_c6696.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.50
+        
+      exitCode: 0
+...

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11 -g0 -march=native -O2 -DNDEBUG -funroll-loops -Wall -Werror   CMakeFiles/test-gate-bootstrapping-fftw.dir/test-gate-bootstrapping.cpp.o  -o test-gate-bootstrapping-fftw -rdynamic ../libtfhe/libtfhe-fftw.a /usr/local/lib/libfftw3.a 

@@ -1,0 +1,201 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ee4e3adb069bd9885e7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libtfhe",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libtfhe-Debug-f14175ac5d2bd115c0ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libtfhe",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libtfhe/fft_processors",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-libtfhe.fft_processors-Debug-e66138ee67d0852cf8d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libtfhe/fft_processors"
+				},
+				{
+					"build" : "libtfhe/fft_processors/nayuki",
+					"jsonFile" : "directory-libtfhe.fft_processors.nayuki-Debug-22b916f7cf76f0c2c8cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "libtfhe/fft_processors/nayuki",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "libtfhe/fft_processors/spqlios",
+					"jsonFile" : "directory-libtfhe.fft_processors.spqlios-Debug-1885e017a7950b850191.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "libtfhe/fft_processors/spqlios",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "tfhe",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "tfhe-core::@ba9b253d48999e64bc81",
+					"jsonFile" : "target-tfhe-core-Debug-a80fcebcd097ef5a6b44.json",
+					"name" : "tfhe-core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tfhe-fft-nayuki-avx::@484fe10453564a7a491c",
+					"jsonFile" : "target-tfhe-fft-nayuki-avx-Debug-3aa832e4367fb1150423.json",
+					"name" : "tfhe-fft-nayuki-avx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tfhe-fft-nayuki-portable::@484fe10453564a7a491c",
+					"jsonFile" : "target-tfhe-fft-nayuki-portable-Debug-bd6af4ef395fdcf9adfb.json",
+					"name" : "tfhe-fft-nayuki-portable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tfhe-fft-spqlios-avx::@4c2ab122d7686ee939bb",
+					"jsonFile" : "target-tfhe-fft-spqlios-avx-Debug-8fc92d58edaefd497253.json",
+					"name" : "tfhe-fft-spqlios-avx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tfhe-fft-spqlios-fma::@4c2ab122d7686ee939bb",
+					"jsonFile" : "target-tfhe-fft-spqlios-fma-Debug-ececfebcfc321764156c.json",
+					"name" : "tfhe-fft-spqlios-fma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tfhe-nayuki-avx::@ba9b253d48999e64bc81",
+					"jsonFile" : "target-tfhe-nayuki-avx-Debug-6b264cb30d6d026ed447.json",
+					"name" : "tfhe-nayuki-avx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tfhe-nayuki-portable::@ba9b253d48999e64bc81",
+					"jsonFile" : "target-tfhe-nayuki-portable-Debug-8a8470f2dfabb651ee81.json",
+					"name" : "tfhe-nayuki-portable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tfhe-spqlios-avx::@ba9b253d48999e64bc81",
+					"jsonFile" : "target-tfhe-spqlios-avx-Debug-91b26d0d7ef077e04209.json",
+					"name" : "tfhe-spqlios-avx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tfhe-spqlios-fma::@ba9b253d48999e64bc81",
+					"jsonFile" : "target-tfhe-spqlios-fma-Debug-fa106b1fef936e7be88f.json",
+					"name" : "tfhe-spqlios-fma",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/src/cmake-build-debug",
+		"source" : "D:/Documents/njit/1\u5927\u4e09\u4e0b\u5b9e\u9a8c\u62a5\u544a/\u5bc6\u7801\u5b66\u5b9e\u9a8c/\u7a0b\u5e8f\u4ee3\u7801\uff08\u5e26\u7ae0\u8282\u7f16\u53f7\uff09/8.1/tfhe-master/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
